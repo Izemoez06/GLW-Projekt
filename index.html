@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AlpiX Solutions – Team Landingpage</title>
+  <meta name="description" content="Team-Landingpage: TechPort Berlin Besuchermanagement (TCS) – Projekt von AlpiX Solutions." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Header / Navigation -->
+<header class="header">
+ <div class="container header-inner">
+<div class="brand">
+<div class="brand-logo">AlpiX</div>
+<div class="brand-text">
+<div class="brand-name">AlpiX Solutions</div>
+<div class="brand-sub">TechPort Berlin – Besuchermanagement (TCS)</div>
+</div>
+</div>
+
+      <!-- Navigation für die Teamseite -->
+<nav class="nav">
+<a href="#projekt">Projekt</a>
+<a href="#problem">Problem</a>
+<a href="#loesung">Lösung</a>
+<a href="#team">Team</a>
+<a class="btn btn-small" href="checkin-mockup.html">Mockup</a>
+</nav>
+</div>
+</header>
+
+<main>
+    <!-- Homepage Regsiter -->
+<section class="hero">
+<div class="container hero-inner">
+<div>
+<h1>Besuchermanagement für TechPort Berlin</h1>
+<p class="muted">
+Ziel: effizienter Standortbetrieb, hohes Sicherheitsniveau, transparente Organisation und besseres Nutzererlebnis.
+</p>
+
+<div class="hero-actions">
+<a class="btn" href="#team">Team-Websites</a>
+<a class="btn btn-ghost" href="#loesung">TCS ansehen</a>
+</div>
+
+<div class="chips">
+<span class="chip">Voranmeldung</span>
+<span class="chip">QR Check-in</span>
+<span class="chip">Zeitfenster/Slots</span>
+            <span class="chip">RBAC</span>
+          </div>
+        </div>
+
+        <aside class="card hero-card">
+          <h2>Quick Facts</h2>
+          <ul class="list">
+            <li>TechPort: Innovationscampus</li>
+            <li>Viele Besucher / Lieferverkehr / internationale Gäste</li>
+            <li>Problem: Wartezeiten, Medienbrüche, manuelle Prüfungen</li>
+          </ul>
+          <div class="divider"></div>
+          <a class="link" href="checkin-mockup.html">→ Voranmeldung/Check-in Mockup öffnen</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- PROJEKT -->
+    <section id="projekt" class="section">
+      <div class="container">
+        <h2>Projektüberblick</h2>
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>Auftraggeber</h3>
+            <p class="muted">TechPort Berlin GmbH (Fallstudie/Projekt)</p>
+          </article>
+          <article class="card">
+            <h3>Betroffene Bereiche</h3>
+            <p class="muted">Besucher, Lieferanten, Sicherheitsdienst, Facility Management</p>
+          </article>
+          <article class="card">
+            <h3>Zielbild</h3>
+            <p class="muted">Schneller, sicherer, transparenter Ablauf vom Check-in bis zum Zutritt</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLEM -->
+    <section id="problem" class="section section-alt">
+      <div class="container">
+        <h2>Problem & Symptome</h2>
+
+        <div class="grid grid-2">
+          <article class="card">
+            <h3>Problemformulierung (1–2 Sätze)</h3>
+            <p class="muted">
+              Verkehrs- und Besucherchaos durch umständliche Prozesse und ein veraltetes Intranet-System:
+              geringe Voranmeldung, hoher manueller Prüfaufwand und steigendes Sicherheitsrisiko.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Messgrößen (Beispiele)</h3>
+            <ul class="list">
+              <li>Wartezeit an der Zufahrt: <strong>~10 Minuten</strong></li>
+              <li>Voranmeldequote: <strong>~30%</strong></li>
+              <li>Ladezeit Intranet-Portal: <strong>~6 Sekunden</strong></li>
+              <li>Hoher Anteil manueller Ausweisprüfungen</li>
+              <li>Stau-/Queue-Bildung zu Peak-Zeiten</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+          <h3>Ist-Zustand (vereinfacht)</h3>
+          <div class="flow">
+            <div class="flow-step">Ankunft am Campus</div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step">Check-in</div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step">Intranet-Prüfung</div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step">Rückfrage</div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step">Manuelle Ausweisprüfung</div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step">Wartezeit</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LÖSUNG -->
+    <section id="loesung" class="section">
+      <div class="container">
+        <h2>Lösungsentwurf: TCS (Tech-Port-Campus-System)</h2>
+
+        <div class="grid grid-2">
+          <article class="card">
+            <h3>System-Idee</h3>
+            <p class="muted">
+              Zentrale Plattform für Besucher-, Lieferanten- und Zutrittsprozesse:
+              Anmeldung → Freigabe → QR → Gate-Scan.
+            </p>
+            <ul class="list">
+              <li>Digitale Voranmeldung</li>
+              <li>Identitätsprüfung</li>
+              <li>Zeitfenster- & Zonensteuerung</li>
+              <li>QR-Check-in / Wallet</li>
+              <li>Status-Workflow + Chat/Hilfe</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Technisches Konzept (Kurz)</h3>
+            <ul class="list">
+              <li>Web-Portal + mobile Web-App</li>
+              <li>Hybrid-Cloud-basiert</li>
+              <li>Zentrale Datenbasis</li>
+              <li>Rollenbasierte Zugriffskontrolle (RBAC)</li>
+              <li>Schnittstellen für Anbindungen</li>
+            </ul>
+            <div class="divider"></div>
+            <a class="btn btn-ghost" href="checkin-mockup.html">Mockup ansehen</a>
+          </article>
+        </div>
+
+        <div class="grid grid-3" style="margin-top:14px;">
+          <article class="card">
+            <h3>Geschäftlicher Nutzen</h3>
+            <ul class="list">
+              <li>Kürzere Wartezeiten</li>
+              <li>Mehr Voranmeldungen</li>
+              <li>Weniger manueller Aufwand</li>
+              <li>Mehr Transparenz</li>
+              <li>Höhere Sicherheit</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Implementierungsplan</h3>
+            <ul class="list">
+              <li>Vorbereitung (1–1.5 Monate)</li>
+              <li>Fachkonzept (1.5–2 Monate)</li>
+              <li>MVP (2–2.5 Monate)</li>
+              <li>Pilot (1.5–2 Monate)</li>
+              <li>Erweiterung (1.5–2.5 Monate)</li>
+              <li>Rollout (2–3 Monate)</li>
+            </ul>
+            <p class="muted small">Gesamt: ca. 10–14 Monate</p>
+          </article>
+
+          <article class="card">
+            <h3>Risiken & Gegenmaßnahmen</h3>
+            <ul class="list">
+              <li>Systemausfall → Redundanz/Fallback</li>
+              <li>Datenmischung → Mandantentrennung/RBAC</li>
+              <li>Akzeptanz → Schulungen/Aufklärung</li>
+              <li>Datenschutz → Retention/Audit-Logs</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section id="team" class="section section-alt">
+      <div class="container">
+        <h2>Team & persönliche Websites</h2>
+        <p class="muted">
+        </p>
+
+        <div class="grid grid-4">
+          <a class="card team-card" href="gia-linh.html">
+            <h3>Gia Linh Do</h3>
+            <p class="muted">Business Analyst</p>
+            <p class="small">→ Profil öffnen</p>
+          </a>
+
+          <a class="card team-card" href="pelin.html">
+            <h3>Pelin Atagün</h3>
+            <p class="muted">Strategy Consultant</p>
+            <p class="small">→ Profil öffnen</p>
+          </a>
+
+          <a class="card team-card" href="izem.html">
+            <h3>Izem Özer</h3>
+            <p class="muted">Solution Consultant</p>
+            <p class="small">→ Profil öffnen</p>
+          </a>
+
+          <a class="card team-card" href="ali.html">
+            <h3>Ali Aksu</h3>
+            <p class="muted">Project Manager & Implementation Lead</p>
+            <p class="small">→ Profil öffnen</p>
+          </a>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+          <h3>Externe Team-Websites (zum Einfügen)</h3>
+          <p class="muted small">
+            TEAM: Tragt eure echten Links ein. Beispiel: GitHub Pages / Portfolio / Notion.
+          </p>
+
+          <!-- HIER LINKS EINFÜGEN / ÄNDERN -->
+          <ul class="list">
+            <li><strong>Gia Linh Do:</strong> <a class="link" href="https://DEIN-LINK-HIER" target="_blank" rel="noopener noreferrer">https://DEIN-LINK-HIER</a></li>
+            <li><strong>Pelin Atagün:</strong> <a class="link" href="https://DEIN-LINK-HIER" target="_blank" rel="noopener noreferrer">https://DEIN-LINK-HIER</a></li>
+            <li><strong>Izem Özer:</strong> <a class="link" href="https://DEIN-LINK-HIER" target="_blank" rel="noopener noreferrer">https://DEIN-LINK-HIER</a></li>
+            <li><strong>Ali Aksu:</strong> <a class="link" href="https://DEIN-LINK-HIER" target="_blank" rel="noopener noreferrer">https://DEIN-LINK-HIER</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> AlpiX Solutions (Projekt)</small>
+      <a class="link" href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'}); return false;">Nach oben</a>
+    </div>
+  </footer>
+
+  <script>
+    // Kleines Script nur fürs Jahr (simpel)
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
